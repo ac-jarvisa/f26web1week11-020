@@ -221,3 +221,14 @@ section.four div:nth-child(8){ grid-area: footer; }
         "footer footer footer";
     }
 }
+
+@media screen and (min-width:900px){
+    section.four article{
+        grid-template-areas:
+        "nav nav nav cart"
+        "header header header header"
+        "photo1 main main aside"
+        "photo2 main main aside"
+        "footer footer footer aside";
+    }
+}
